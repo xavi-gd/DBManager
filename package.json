@@ -1,0 +1,28 @@
+{
+  "name": "dbmanager",
+  "version": "1.0.0",
+  "description": "Herramienta para gestionar tablas y datos en la base de datos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/syncTables.js",
+    "syncTables": "node scripts/syncTables.js",
+    "insertData": "node scripts/insertData.js",
+    "deleteData": "node scripts/deleteData.js",
+    "eslint": "npx eslint .",
+    "eslint:fix": "npx eslint . --fix",
+    "prettier": "npx prettier --write ."
+  },
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "dependencies": {
+    "sequelize": "^6.32.1",
+    "mysql2": "^3.4.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.2"
+  }
+}
