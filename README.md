@@ -1,6 +1,6 @@
 # DBManager
 
-Mi  dfsdfsdfdsfds DBManager es una herramienta para gestionar la creación, actualización y llenado de tablas en una base de datos MySQL utilizando Sequelize. Este proyecto incluye scripts para sincronizar modelos, insertar datos de ejemplo, revisar y formatear el código, y más.
+DBManager es una herramienta para gestionar la creación, actualización y llenado de tablas en una base de datos MySQL utilizando Sequelize. Este proyecto incluye scripts para sincronizar modelos, insertar datos de ejemplo, revisar y formatear el código, y más.
 
 ## Requisitos Previos
 
